@@ -499,7 +499,7 @@ margin on the iframe, cause it breaks stuff. */
     width:80%;
     max-width: 700px;
     margin: 4rem auto;
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
     border-bottom: #EBF2F6 1px solid;
     word-break: break-word;
     hyphens: auto;
@@ -637,15 +637,16 @@ margin on the iframe, cause it breaks stuff. */
     max-width: 100%;
     height: auto;
     margin: 0 auto;
-    padding: 0.6em 0;
+    /*padding: 0.6em 0;*/
 }
 
 /* Break out larger images to be wider than the main text column
    the class is applied with jQuery */
 .post-content .full-img {
-    width: 126%;
+    width: 88%;
     max-width: none;
-    margin: 0 -13%;
+    box-shadow: 0px 0px 15px gray;
+    border-radius: 6px;
 }
 
 /* The author credit area after the post */
