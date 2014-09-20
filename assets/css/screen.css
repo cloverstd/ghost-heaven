@@ -1094,8 +1094,7 @@ margin on the iframe, cause it breaks stuff. */
 
     .post-content .full-img {
         width: auto;
-        width: calc(100% + 32px); /* expand with to image + margins */
-        margin: 0 -16px; /* get rid of margins */
+        width: calc(88% + 32px); /* expand with to image + margins */
         min-width: 0;
         max-width: 112%; /* fallback when calc doesn't work */
     }
